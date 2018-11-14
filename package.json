@@ -1,0 +1,37 @@
+{
+  "name": "gyro-plane",
+  "version": "1.0.1",
+  "description": "Transform angle values from a gyroscope to 2D coordinates.",
+  "main": "lib/index.js",
+  "keywords": [
+    "gyroscope",
+    "gyro",
+    "angle",
+    "project",
+    "plane",
+    "coordinates",
+    "calculate"
+  ],
+  "repository": "https://github.com/dulnan/gyro-plane",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "babel src --presets babel-preset-env --out-dir lib",
+    "test": "mocha --require babel-register --colors",
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
+  },
+  "author": "Jan Hug <me@dulnan.net>",
+  "license": "MIT",
+  "dependencies": {
+    "vanilla-vectors-3d": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
