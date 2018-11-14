@@ -12,7 +12,7 @@
     "coordinates",
     "calculate"
   ],
-  "repository": "https://github.com/dulnan/gyro-plane",
+  "repository": "https://github.com/thormeier/gyro-plane",
   "directories": {
     "lib": "lib"
   },
